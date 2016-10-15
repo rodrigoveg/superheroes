@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'pages/batman_vs_superman'
+
   get 'pages/superman'
 
   get 'pages/batman'
@@ -7,7 +9,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-   root 'pages#index'
+   root 'pages#batman_vs_superman'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
