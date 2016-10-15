@@ -26,6 +26,12 @@ Rails.application.routes.draw do
   #       get 'short'
   #       post 'toggle'
   #     end
+  
+  resources :votes do
+      member do
+          post 'upvote'
+      end
+      end
   #
   #     collection do
   #       get 'sold'
