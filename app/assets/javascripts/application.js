@@ -15,6 +15,8 @@
 //= require turbolinks
 //= require_tree .
 //= require_jquery.backstretch
+//= require jquery
+//= require bootstrap-sprockets
 
 /*! Backstretch - v2.0.4 - 2013-06-19
 * http://srobbin.com/jquery-plugins/backstretch/
